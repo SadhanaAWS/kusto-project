@@ -1,5 +1,4 @@
-imageTags:
-  - name: wordpress
-    newTag: latest
+images:
+  - name: busybox
 resources: 
   - deploy.yaml
