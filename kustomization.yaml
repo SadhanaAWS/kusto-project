@@ -1,4 +1,4 @@
 commonLabels:
-  kusto: kusto
+  super: kustomize
 resources: 
   - deploy.yaml
