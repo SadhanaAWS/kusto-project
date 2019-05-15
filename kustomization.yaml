@@ -1,4 +1,4 @@
-images:
-  - name: busybox
+commonLabels:
+  kusto: kusto
 resources: 
   - deploy.yaml
