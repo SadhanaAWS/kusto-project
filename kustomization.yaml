@@ -1,0 +1,5 @@
+commonLabels:
+  super: kusto
+resources: 
+  - deploy.yaml
+  - service.yaml
