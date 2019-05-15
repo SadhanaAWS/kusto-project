@@ -2,3 +2,5 @@ commonLabels:
   super: kustomize
 resources: 
   - deploy.yaml
+  - service.yaml
+  - pvc.yaml
