@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: b-ext-svc
+  labels:
+    app: b-ext
+spec:
+  ports:
+    - port: 80
+  selector:
+    app: b-ext
+    tier: frontend
+  type: LoadBalancer
+---
