@@ -1,5 +1,5 @@
-commonLabels:
-  super: kusto
+imageTags:
+  - name: wordpress
+    newTag: latest
 resources: 
   - deploy.yaml
-  - service.yaml
