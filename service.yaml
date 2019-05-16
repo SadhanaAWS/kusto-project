@@ -10,5 +10,4 @@ spec:
   selector:
     app: b-ext
     tier: frontend
-  type: LoadBalancer
----
+  type: NodePort
