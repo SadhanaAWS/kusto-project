@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: b-ext-ing
+spec:
+  rules:
+  - host: sadhana.cicd.kops.bsh-ac.cloud
+    http:
+      paths:
+      - path: /        
+        backen:
+          serviceName: b-ext-svc
+          servicePort: 80
