@@ -8,6 +8,6 @@ spec:
     http:
       paths:
       - path: /        
-        backen:
+        backend:
           serviceName: b-ext-svc
           servicePort: 80
